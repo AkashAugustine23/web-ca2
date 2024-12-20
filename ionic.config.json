@@ -1,0 +1,7 @@
+{
+  "name": "FoodDeliveryApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
