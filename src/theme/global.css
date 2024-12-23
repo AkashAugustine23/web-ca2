@@ -1,0 +1,166 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff; /* White background for entire app */
+  color: #000000; /* Black text for better readability */
+}
+
+/* Content Background */
+ion-content {
+  --background: #ffffff; /* White background for content */
+}
+
+/* Buttons */
+ion-button {
+  --border-radius: 8px;
+  --padding-start: 16px;
+  --padding-end: 16px;
+  --padding-top: 10px;
+  --padding-bottom: 10px;
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+/* Primary Buttons */
+ion-button[color='primary'] {
+  --background: #85ddff; /* Light blue primary color */
+  --color: #000000; /* Black text for contrast */
+}
+
+/* Danger Buttons */
+ion-button[color='danger'] {
+  --background: #ff4d4f; /* Red for danger actions */
+  --color: #ffffff; /* White text */
+}
+
+/* Success Buttons */
+ion-button[color='success'] {
+  --background: #28a745; /* Green for success actions */
+  --color: #ffffff; /* White text */
+}
+
+/* Floating Action Buttons */
+ion-fab-button {
+  --background: #85ddff;
+  --color: #000000;
+}
+
+/* Splash Spinner */
+.splash-spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: #ffffff; /* White spinner */
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Cards */
+ion-card {
+  --border-radius: 10px;
+  --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --background: #ffffff; /* White background for cards */
+  margin: 16px;
+}
+
+/* Restaurant Image */
+.restaurant-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Dish Image */
+.dish-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Profile Picture */
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #85ddff; /* Light blue border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Camera Button for Profile */
+.camera-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #85ddff; /* Light blue button */
+  border-radius: 50%;
+  padding: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Text Styles */
+ion-title {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Restaurant Titles */
+.restaurant-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #000000; /* Black text */
+}
+
+/* Dish Titles */
+.dish-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #000000; /* Black text */
+}
+
+/* Toast */
+ion-toast {
+  --border-radius: 8px;
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Map Container */
+.map-container {
+  width: 100%;
+  height: 300px;
+  margin: 10px 0;
+  border: 1px solid #85ddff; /* Light blue border */
+}
+
+/* Content Padding */
+ion-content {
+  --padding-top: 10px;
+  --padding-bottom: 10px;
+  --padding-start: 16px;
+  --padding-end: 16px;
+}
+
+/* Hover Effect */
+ion-button:hover {
+  opacity: 0.9;
+}
+
+/* Links */
+a {
+  color: #85ddff; /* Light blue links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
